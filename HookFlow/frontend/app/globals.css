@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+  --bg-primary: #F2F3F4;
+  --text-primary: #36454F;
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-montserrat);
+}
